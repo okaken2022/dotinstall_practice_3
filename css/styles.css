@@ -1,0 +1,53 @@
+.section-title {
+  font-size: 32px;
+  border-bottom: 1px solid gray;
+  clear: right;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.section1-img {
+  float: right;
+}
+.section2-img {
+  float: left;
+}
+
+.boxes {
+  clear: left;
+}
+
+.box1 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 500px;
+  left: 0;
+  z-index: 3;
+}
+
+.box2 {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 540px;
+  left: 40px;
+  z-index: 2;
+
+}
+
+.box3 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 580px;
+  left: 80px;
+  z-index: 1;
+
+}
+
+
